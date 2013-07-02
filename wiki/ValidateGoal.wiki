@@ -21,10 +21,10 @@ The validate goal help you to validate a project without opening the tibco desig
 == Optional ==
 
 *validationIgnoresFile :*  The location and name of the a ignore file used to define pattern to exclude when validating project. By default, the plugin look for a validation.ignore filename in root directory.
-_Ex : resources/validation.ignore_
+<br>_Ex : resources/validation.ignore_
 
 *checkUnusedGlobalVariables (true/false) :*  A boolean indicating whether or not you want to check unused variables when validating project. When set to true, validation fail if unused global variables are finded. By default, false value is used.
-_Ex: false_
+<br>_Ex: false_
 
 *outputDirectory :* Output directory where validation log is written. By default, the target directory is used.
-_Ex: output/validate_
+<br>_Ex: output/validate_
