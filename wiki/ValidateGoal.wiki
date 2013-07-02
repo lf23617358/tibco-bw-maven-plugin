@@ -20,10 +20,10 @@ _Ex: C:\tibco\designer\5.6\bin\_
 
 *Optional*
 
- *validationIgnoresFile* :  The location and name of the a ignore file used to define pattern to exclude when validating project. By default, the plugin look for a validation.ignore filename in root directory.
+*validationIgnoresFile* :  The location and name of the a ignore file used to define pattern to exclude when validating project. By default, the plugin look for a validation.ignore filename in root directory.
 _Ex : resources/validation.ignore_
 
- *checkUnusedGlobalVariables (true/false)* :  A boolean indicating whether or not you want to check unused variables when validating project. When set to true, validation fail if unused global variables are finded. By default, false value is used.
+*checkUnusedGlobalVariables (true/false) :*  A boolean indicating whether or not you want to check unused variables when validating project. When set to true, validation fail if unused global variables are finded. By default, false value is used.
 _Ex: false_
 
  * outputDirectory :* Output directory where validation log is written. By default, the target directory is used.
