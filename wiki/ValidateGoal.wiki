@@ -14,7 +14,7 @@ The validate goal help you to validate a project without opening the tibco desig
 
 *Mandatory*
 
- *designerHome* : Bin directory of tibco designer installation in local machine. 
+*designerHome* : Bin directory of tibco designer installation in local machine. 
 _Ex: C:\tibco\designer\5.6\bin\_
 
 
