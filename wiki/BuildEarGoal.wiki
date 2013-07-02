@@ -12,7 +12,7 @@ The buildear goal enables you to build a deployable archive (ear) of a tibco pro
 
 *Mandatory*
 
- * traHome :* Bin directory of tibco tra installation in local machine
+ *traHome :* Bin directory of tibco tra installation in local machine
 _Ex: C:\tibco\tra\5.6\bin\_
 
 
