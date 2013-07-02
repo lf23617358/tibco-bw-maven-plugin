@@ -1,0 +1,26 @@
+#summary Maven Replace Goal.
+#labels Replace
+
+= Command = 
+
+mvn tibco-bw:replace
+
+= Description =
+
+The maven replace goal replaces global variables of deployment configuration file with key/value couple defined in a properties file. It enables to adapt xml deployment configuration file to a specific deployment environment.
+
+= Parameters =
+
+==Mandatory==
+
+*filterFile: *The location of properties file where you can find key/value couple to replace.
+<br>_Ex: resources/filter-DEV.properties, resources/filter-INT.properties, resources/filter-UAT.properties
+
+
+*machineTibco :* The name of tibco server machine where the application will be deployed.
+This is the name configured in Resource Management/Machines in Tibco Administrator. console.
+
+==Optional==
+
+*outputDirectory :* Output directory where ear file is generated. By default, the target directory is used.
+<br>_Ex: output/validate_
