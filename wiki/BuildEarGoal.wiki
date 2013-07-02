@@ -1,13 +1,25 @@
-#summary One-sentence summary of this page.
+#summary Maven Build Ear Goal.
 
-= Description=
+= Command = 
+ mvn tibco-bw:buildear
 
-Add your content here.
+= Description =
 
+The buildear goal enables you to build a deployable archive (ear) of a tibco project. The plugin use a  tibco archive description file to build the ear.
 
 = Parameters =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+*Mandatory*
+
+ *traHome :* Bin directory of tibco tra installation in local machine
+_Ex: C:\tibco\tra\5.6\bin\_
+
+
+ *archiveURI :* The archive resource file location defining the list of configured component to package.
+_Ex: /TIB_APP/DeploymentConfiguration/TIB_APP.archive_
+
+
+*Optional*
+
+ *outputDirectory :* Output directory where ear file is generated. By default, the target directory is used.
+_Ex: output/validate_
