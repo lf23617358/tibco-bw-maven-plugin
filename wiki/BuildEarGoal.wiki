@@ -14,14 +14,14 @@ The buildear goal enables you to build a deployable archive (ear) of a tibco pro
 ==Mandatory==
 
 *traHome :* Bin directory of tibco tra installation in local machine
-_Ex: C:\tibco\tra\5.6\bin\_
+<br>_Ex: C:\tibco\tra\5.6\bin\_
 
 
 *archiveURI :* The archive resource file location defining the list of configured component to package.
-_Ex: /TIB_APP/DeploymentConfiguration/TIB_APP.archive_
+<br>_Ex: /TIB_APP/DeploymentConfiguration/TIB_APP.archive_
 
 
 ==Optional==
 
 *outputDirectory :* Output directory where ear file is generated. By default, the target directory is used.
-_Ex: output/validate_
+<br>_Ex: output/validate_
