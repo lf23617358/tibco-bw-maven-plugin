@@ -1,23 +1,23 @@
 #summary Maven Validate Goal.
 
-= Introduction =
+= Description=
 
 The validate goal help you to validate a project without opening the tibco designer application. It enables you to define a file which contains a list of pattern (using regular expression) to ignore.
 
-= Details =
+= Options =
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
-**Mandatory*
+* *Mandatory*
 
 *designerHome* : Bin directory of tibco designer installation in local machine. 
 Ex: C:\tibco\designer\5.6\bin\
 
 
-*Optional*
+* *Optional*
 
 *validationIgnoresFile :*  The location and name of the a ignore file used to define pattern to exclude when validating project. By default, the plugin look for a validation.ignore filename in root directory.
 Ex : resources/validation.ignore
