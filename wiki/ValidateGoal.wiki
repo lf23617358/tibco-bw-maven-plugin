@@ -14,7 +14,7 @@ Add your content here.  Format your content with:
 * *Mandatory*
 
 *designerHome* : Bin directory of tibco designer installation in local machine. 
-Ex: C:\tibco\designer\5.6\bin\
+_Ex: C:\tibco\designer\5.6\bin\_
 
 
 * *Optional*
