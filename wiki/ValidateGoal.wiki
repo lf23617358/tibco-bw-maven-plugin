@@ -1,29 +1,30 @@
 #summary Maven Validate Goal.
+#labels Validatetibco,maventibcovalidation,checktibcoproject,Validate,tibcobusinessworks
 
 = Description=
 
 The validate goal help you to validate a project without opening the tibco designer application. It enables you to define a file which contains a list of pattern (using regular expression) to ignore.
 
-= Options =
+= Parameters =
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
-* *Mandatory*
+*Mandatory*
 
-*designerHome* : Bin directory of tibco designer installation in local machine. 
+ *designerHome* : Bin directory of tibco designer installation in local machine. 
 _Ex: C:\tibco\designer\5.6\bin\_
 
 
-* *Optional*
+*Optional*
 
 *validationIgnoresFile :*  The location and name of the a ignore file used to define pattern to exclude when validating project. By default, the plugin look for a validation.ignore filename in root directory.
-Ex : resources/validation.ignore
+_Ex : resources/validation.ignore_
 
-*checkUnusedGlobalVariables (true/false) :*  A boolean indicating whether or not you want to check unused variables when validating project. When set to true, validation fail if unused global variables are finded. By default, false value is used.
-Ex: false
+ *checkUnusedGlobalVariables (true/false) :*  A boolean indicating whether or not you want to check unused variables when validating project. When set to true, validation fail if unused global variables are finded. By default, false value is used.
+_Ex: false_
 
-*outputDirectory :* Output directory where validation log is written. By default, the target directory is used.
-Ex: output/validate
+ *outputDirectory :* Output directory where validation log is written. By default, the target directory is used.
+_Ex: output/validate_
