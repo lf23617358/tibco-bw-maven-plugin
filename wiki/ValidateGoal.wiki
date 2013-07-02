@@ -11,7 +11,7 @@ Add your content here.  Format your content with:
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
 
-*Mandatory*
+**Mandatory*
 
 *designerHome* : Bin directory of tibco designer installation in local machine. 
 Ex: C:\tibco\designer\5.6\bin\
